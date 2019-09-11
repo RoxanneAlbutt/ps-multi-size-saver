@@ -11,7 +11,7 @@
 ### Usage
 Save Photoshop file into multiple sizes in one click.
 
-You can add/remove/edit output sizes by editing the dimensions.txt file. Add the sizes that you would like to save to in the format of 'width'x'height' and seperate each size with a ','. Eg. 64x64,256x256,512x512 
+You can add/remove/edit output sizes by editing the dimensions.txt file. Add the sizes that you would like to save to in the format of '''width'''x'''height''' and seperate each size with a ''',''' . Eg. 64x64,256x256,512x512 
 
 
 ### License
