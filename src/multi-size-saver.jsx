@@ -44,8 +44,7 @@ app.displayDialogs = startDisplayDialogs;
 //====
 
 function Main() {
-    var dimensions = ParseTextFile(ReadTextFile());   
-    var sourceName = doc;
+    var dimensions = ParseTextFile(ReadTextFile());
     
     for each(dimension in dimensions) {
         // Duplicate into a new document to edit and save
@@ -55,7 +54,7 @@ function Main() {
         // Manipulate document copy
         newDocument.resizeImage(dimension.width + "px", dimension.height + "px", 72, ResampleMethod.BICUBICSHARPER);
         newDocument.saveAs(new File(rootOutputFolder + "/" + newDocument.name), PNGSaveFormat);  
-        newDocument.close();
+        newDocument.close(SaveOptions.DONOTSAVECHANGES);
         
         // Return to original image
         app.activeDocument = doc;
