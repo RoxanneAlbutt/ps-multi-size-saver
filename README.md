@@ -1,7 +1,7 @@
 # Multi-size Saver
 ### Install
 
-1. Download [multi-size-saver.zip](https://github.com/RoxanneAlbutt/photoshop-multi-size-saver/blob/master/multi-size-saver.zip?raw=true)
+1. Download [multi-size-saver.zip](https://github.com/RoxanneAlbutt/ps-multi-size-saver/blob/master/multi-size-saver.zip?raw=true)
 2. Place `multi-size-saver.jsx` and `dimensions.txt` in the Photoshop Scripts folder.
 	- OS X: `/Applications/[Photoshop]/Presets/Scripts/`
 	- Windows: `C:\[Program Files]\Adobe\[Photoshop]\Presets\Scripts`
